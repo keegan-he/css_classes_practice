@@ -1,0 +1,27 @@
+h1 {
+  font-size: 50pt;
+  background-color: aquamarine;
+}
+
+p {
+  font-size: 40pt;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.lotsoftext {
+  font-size: 25pt;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.testtesttest {
+  font-size: 20pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.quotetrib{
+  font-size: 20pt;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

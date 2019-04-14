@@ -6,14 +6,29 @@
         body {
             display: grid;
             grid-template-columns: 75% 25%;
-            grid-template-rows: 10vw 30vw 10vw;
+            grid-template-rows: 10vw 30vw 10vw 10vw;
             grid-gap: 1em;
+            background-color: deeppink;
         }
 
         header,
         footer {
             grid-column: 1 / span 2;
             object-fit: fill;
+        }
+
+        aside {
+            display: flex;
+            flex-flow: column;
+            justify-content: space-evenly;
+            overflow: hidden;
+
+        }
+
+        .message {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: aquamarine;
+            font-size: 10vw;
         }
 
         /* Demo Specific Styles */
@@ -25,13 +40,13 @@
 
         header,
         main,
-        aside,
         footer {
             background: #eaeaea;
             display: flex;
-            align-items:center;
-            justify-content:center;
-            overflow:hidden; /*protects from spillage */
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            /*protects from spillage */
             object-fit: fill;
         }
     </style>
@@ -41,7 +56,7 @@
 <body>
     <header>
         Header
-<img src="https://media2.giphy.com/media/Bc23mKnmlAO4g/giphy.gif" alt="">
+        <img src="https://media2.giphy.com/media/Bc23mKnmlAO4g/giphy.gif" alt="">
         <img src="https://media.giphy.com/media/LWps4guoNxa3PovzPU/giphy.gif" alt="">
         <img src="https://i.imgur.com/WG4uUj2.gif" alt="">
 
@@ -49,15 +64,28 @@
     <main>
         Main
         <img src="https://media2.giphy.com/media/10dXd0Y4uBk304/giphy.gif" alt="">
-        <img src="http://31.media.tumblr.com/f239ce70618215df66b977ef60fdb507/tumblr_njjjomqVd81u1w094o1_500.gif" alt="">
+        <img src="http://31.media.tumblr.com/f239ce70618215df66b977ef60fdb507/tumblr_njjjomqVd81u1w094o1_500.gif"
+            alt="">
     </main>
     <aside>
         Sidebar
+        <img src="http://38.media.tumblr.com/c8eb0938205f9292ac06fdaf14524139/tumblr_n8oyt3jvtW1sy0fszo3_500.gif"
+            alt="">
+        <img src="http://33.media.tumblr.com/55d57e337a956c6250941a229d45325b/tumblr_nt7si2bZCu1r1xpwxo1_540.gif"
+            alt="">
     </aside>
     <footer>
         Footer
         <img src="https://i.makeagif.com/media/10-08-2016/2B_w9z.gif" alt="">
+        <img src="http://25.media.tumblr.com/0e5babbdfe7882945c624714c36175ce/tumblr_mlh2gzRwtB1sn5rejo1_500.gif"
+            alt="">
+        <img src="https://vitrifyher.files.wordpress.com/2018/03/tumblr_mrmx11zv1c1rkeknyo1_500.gif" alt="">
     </footer>
+
+    <div class="message">
+        ブレスブレスブレス
+
+    </div>
 </body>
 
 </html>

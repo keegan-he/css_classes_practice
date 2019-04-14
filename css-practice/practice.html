@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: 75% 25%;
+            grid-template-rows: 10vw 30vw 10vw;
+            grid-gap: 1em;
+        }
+
+        header,
+        footer {
+            grid-column: 1 / span 2;
+            object-fit: fill;
+        }
+
+        /* Demo Specific Styles */
+        body {
+            margin: 0 auto;
+            max-width: 56em;
+            padding: 1em 0;
+        }
+
+        header,
+        main,
+        aside,
+        footer {
+            background: #eaeaea;
+            display: flex;
+            align-items:center;
+            justify-content:center;
+            overflow:hidden; /*protects from spillage */
+            object-fit: fill;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        Header
+<img src="https://media2.giphy.com/media/Bc23mKnmlAO4g/giphy.gif" alt="">
+        <img src="https://media.giphy.com/media/LWps4guoNxa3PovzPU/giphy.gif" alt="">
+        <img src="https://i.imgur.com/WG4uUj2.gif" alt="">
+
+    </header>
+    <main>
+        Main
+        <img src="https://media2.giphy.com/media/10dXd0Y4uBk304/giphy.gif" alt="">
+        <img src="http://31.media.tumblr.com/f239ce70618215df66b977ef60fdb507/tumblr_njjjomqVd81u1w094o1_500.gif" alt="">
+    </main>
+    <aside>
+        Sidebar
+    </aside>
+    <footer>
+        Footer
+        <img src="https://i.makeagif.com/media/10-08-2016/2B_w9z.gif" alt="">
+    </footer>
+</body>
+
+</html>
